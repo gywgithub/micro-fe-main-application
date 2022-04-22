@@ -1,18 +1,19 @@
 <template>
   <div class="hello">
 
-    <h1>Hello World</h1>
-    <!-- <input type="button" value="go home" @click="goHome" /> -->
+    <h1>主应用 Hello2</h1>
+    
+    <!-- <input type="button" value="go home" @click="goHelloWorld" /> -->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HelloTwo',
   methods: {
-    goHome() {
+    goHelloWorld() {
       this.$router.push({
-        path: 'home'
+        path: '/hello'
       })
     }
   }
