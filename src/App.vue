@@ -3,10 +3,7 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Home />
-    <!--  -->
     <div id="vue-app">
-      
-      <!-- <router-view></router-view> -->
     </div>
   </div>
 </template>
